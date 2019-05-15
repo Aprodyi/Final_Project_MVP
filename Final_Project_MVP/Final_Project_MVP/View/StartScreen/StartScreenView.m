@@ -56,13 +56,8 @@
     cameraButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     cameraButton.showsTouchWhenHighlighted = YES;
     cameraButton.layer.borderColor = [UIColor blackColor].CGColor;
-    [cameraButton addTarget:self action:@selector(buttonCamera) forControlEvents:UIControlEventTouchUpInside];
+    [cameraButton addTarget:self.presenter action:@selector(createDetectorScreen) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cameraButton];
-}
-
-- (void)buttonCamera
-{
-    [self.presenter createDetectorScreen];
 }
 
 @end
