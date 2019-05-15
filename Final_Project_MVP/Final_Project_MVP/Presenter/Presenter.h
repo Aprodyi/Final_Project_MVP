@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) id<PickerViewProtocol> passiveViewPicker;
 @property (nonatomic, strong) id passiveViewGoogleDetect;
 
-@property (nonatomic, strong) NSData *imageCoreData;
+@property (nonatomic, copy) NSData *imageCoreData;
 @property (nonatomic, copy, nullable) NSArray *responseArray;
 @property (nonatomic, copy) NSArray <Images *> *coreDataImagesArray;
 
