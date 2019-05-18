@@ -10,6 +10,13 @@
 
 @implementation CroppingHelper
 
+/**
+ Получить размер изображения, которое AspectFit
+
+ @param image изображение
+ @param imageView с размерами экрана
+ @return прямоугольник с размерами изображения
+ */
 + (CGRect)frameForImage:(UIImage*)image inImageViewAspectFit:(UIImageView*)imageView
 {
     CGFloat imageRatio = image.size.width / image.size.height;
@@ -32,11 +39,17 @@
     }
 }
 
+/**
+ Конвертируем прямоугольник из пиксилей изображения в поинты экрана
+
+ @param inputImageView Image View с изображением
+ @param cropRect прямоугольник в пикселях
+ @return прямоугольник в поинтах
+ */
 + (CGRect)getScaleRectWithImageView:(UIImageView *)inputImageView andCropRect:(CGRect)cropRect
 {
     const CGFloat imageViewScale = MAX(inputImageView.image.size.width / inputImageView.frame.size.width, inputImageView.image.size.height / inputImageView.frame.size.height);
     CGRect imageCoordinates = [self frameForImage:inputImageView.image inImageViewAspectFit:inputImageView];
-//    CGRect imageRect = cropRect;
     cropRect.origin.x /= imageViewScale;
     cropRect.origin.y /= imageViewScale;
     cropRect.size.width /= imageViewScale;

@@ -10,6 +10,14 @@
 
 @implementation TransitionAnimation
 
+/**
+ Анимация при добавлении нового экрана
+
+ @param type тип анимации CATransitionType
+ @param subtype подтип анимации CATransitionSubtype
+ @param duration длительность в секундах
+ @return CATransition
+ */
 + (CATransition *)transitionAnimationWithType: (CATransitionType)type andSubtype: (CATransitionSubtype)subtype andDuration: (CFTimeInterval)duration
 {
     CATransition* transition = [CATransition animation];

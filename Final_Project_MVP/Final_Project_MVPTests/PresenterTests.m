@@ -10,20 +10,20 @@
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
 
-#import "DataModel.h"
-#import "Router.h"
-#import "Presenter.h"
-#import "StartScreenView.h"
-#import "ImagePhotoView.h"
-#import "MenuView.h"
-#import "CropImageView.h"
-#import "CollectionView.h"
-#import "TableView.h"
+#import "SBSDataModel.h"
+#import "SBSRouter.h"
+#import "SBSPresenter.h"
+#import "SBSStartScreenView.h"
+#import "SBSImagePhotoView.h"
+#import "SBSMenuView.h"
+#import "SBSCropImageView.h"
+#import "SBSCollectionView.h"
+#import "SBSTableView.h"
 #import "ColorsDictionary.h"
 
 @interface PresenterTests : XCTestCase
 
-@property (nonatomic, strong) Presenter *presenter;
+@property (nonatomic, strong) SBSPresenter *presenter;
 
 @property (nonatomic, strong) id mockRouter;
 @property (nonatomic, strong) id mockDataModel;
@@ -38,13 +38,13 @@
 
 - (void)setUp
 {
-    self.presenter = [Presenter new];
-    self.mockRouter = OCMClassMock([Router class]);
-    self.mockDataModel = OCMClassMock([DataModel class]);
-    self.mockImagePhotoView = OCMClassMock([ImagePhotoView class]);
-    self.mockMenuView = OCMClassMock([MenuView class]);
-    self.mockTableView = OCMClassMock([TableView class]);
-    self.mockCropView = OCMClassMock([CropImageView class]);
+    self.presenter = [SBSPresenter new];
+    self.mockRouter = OCMClassMock([SBSRouter class]);
+    self.mockDataModel = OCMClassMock([SBSDataModel class]);
+    self.mockImagePhotoView = OCMClassMock([SBSImagePhotoView class]);
+    self.mockMenuView = OCMClassMock([SBSMenuView class]);
+    self.mockTableView = OCMClassMock([SBSTableView class]);
+    self.mockCropView = OCMClassMock([SBSCropImageView class]);
     
     self.presenter.router = self.mockRouter;
     self.presenter.model = self.mockDataModel;

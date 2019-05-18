@@ -13,27 +13,27 @@
 		A015C0C82280CE3B00639C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A015C0C72280CE3B00639C94 /* Assets.xcassets */; };
 		A015C0CB2280CE3B00639C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A015C0C92280CE3B00639C94 /* LaunchScreen.storyboard */; };
 		A015C0CE2280CE3B00639C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0CD2280CE3B00639C94 /* main.m */; };
-		A015C0FB2280CF5D00639C94 /* StartScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0F92280CF5D00639C94 /* StartScreenView.m */; };
-		A015C0FE2280CFB000639C94 /* ImagePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0FC2280CFAF00639C94 /* ImagePhotoView.m */; };
+		A015C0FB2280CF5D00639C94 /* SBSStartScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0F92280CF5D00639C94 /* SBSStartScreenView.m */; };
+		A015C0FE2280CFB000639C94 /* SBSImagePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C0FC2280CFAF00639C94 /* SBSImagePhotoView.m */; };
 		A015C1092280D1C800639C94 /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1072280D1C800639C94 /* TransitionAnimation.m */; };
-		A015C10F22817A4500639C94 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C10D22817A4400639C94 /* MenuView.m */; };
-		A015C1192281886300639C94 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1182281886300639C94 /* DataModel.m */; };
-		A015C12022818E1400639C94 /* Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C11F22818E1400639C94 /* Assembly.m */; };
-		A015C1242281984A00639C94 /* CropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1232281984A00639C94 /* CropImageView.m */; };
+		A015C10F22817A4500639C94 /* SBSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C10D22817A4400639C94 /* SBSMenuView.m */; };
+		A015C1192281886300639C94 /* SBSDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1182281886300639C94 /* SBSDataModel.m */; };
+		A015C12022818E1400639C94 /* SBSAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C11F22818E1400639C94 /* SBSAssembly.m */; };
+		A015C1242281984A00639C94 /* SBSCropImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1232281984A00639C94 /* SBSCropImageView.m */; };
 		A015C1562281D48700639C94 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A015C1542281D48700639C94 /* DataModel.xcdatamodeld */; };
 		A015C1642281D54000639C94 /* Images+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1622281D54000639C94 /* Images+CoreDataClass.m */; };
 		A015C1652281D54000639C94 /* Images+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1632281D54000639C94 /* Images+CoreDataProperties.m */; };
-		A015C1692281F05300639C94 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1682281F05300639C94 /* CollectionView.m */; };
+		A015C1692281F05300639C94 /* SBSCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C1682281F05300639C94 /* SBSCollectionView.m */; };
 		A015C16C2281F12D00639C94 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C16B2281F12D00639C94 /* CollectionViewCell.m */; };
-		A015C16F2281F1AC00639C94 /* FullScreenImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C16E2281F1AC00639C94 /* FullScreenImage.m */; };
-		A015C17922822C1E00639C94 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C17822822C1E00639C94 /* TableView.m */; };
+		A015C16F2281F1AC00639C94 /* SBSFullScreenImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C16E2281F1AC00639C94 /* SBSFullScreenImage.m */; };
+		A015C17922822C1E00639C94 /* SBSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A015C17822822C1E00639C94 /* SBSTableView.m */; };
 		A0414105228423FA005F26F8 /* PresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0414104228423FA005F26F8 /* PresenterTests.m */; };
-		A041410A228445CA005F26F8 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0414109228445CA005F26F8 /* Presenter.m */; };
-		A041410F2284B32D005F26F8 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = A041410E2284B32D005F26F8 /* Router.m */; };
-		A041411A2284DA5E005F26F8 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A04141192284DA5E005F26F8 /* NetworkRequest.m */; };
-		A041411E22860DDC005F26F8 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A041411D22860DDC005F26F8 /* PickerView.m */; };
+		A041410A228445CA005F26F8 /* SBSPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A0414109228445CA005F26F8 /* SBSPresenter.m */; };
+		A041410F2284B32D005F26F8 /* SBSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = A041410E2284B32D005F26F8 /* SBSRouter.m */; };
+		A041411A2284DA5E005F26F8 /* SBSNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A04141192284DA5E005F26F8 /* SBSNetworkRequest.m */; };
+		A041411E22860DDC005F26F8 /* SBSPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A041411D22860DDC005F26F8 /* SBSPickerView.m */; };
 		A04141232288BDC6005F26F8 /* CroppingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A04141222288BDC6005F26F8 /* CroppingHelper.m */; };
-		A0433104228B3124007A48B0 /* GoogleDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433103228B3124007A48B0 /* GoogleDetectView.m */; };
+		A0433104228B3124007A48B0 /* SBSGoogleDetectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433103228B3124007A48B0 /* SBSGoogleDetectView.m */; };
 		A043311A228BEC5F007A48B0 /* ColorsDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A0433119228BEC5F007A48B0 /* ColorsDictionary.m */; };
 		EB5AAF79A9AC0F3B227AAF71 /* libPods-Final_Project_MVP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFC8BABDFF6B6EB1ED227E0 /* libPods-Final_Project_MVP.a */; };
 /* End PBXBuildFile section */
@@ -66,55 +66,55 @@
 		A015C0CD2280CE3B00639C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A015C0D32280CE3B00639C94 /* Final_Project_MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final_Project_MVPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A015C0D92280CE3B00639C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A015C0F92280CF5D00639C94 /* StartScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScreenView.m; sourceTree = "<group>"; };
-		A015C0FA2280CF5D00639C94 /* StartScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScreenView.h; sourceTree = "<group>"; };
-		A015C0FC2280CFAF00639C94 /* ImagePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePhotoView.m; sourceTree = "<group>"; };
-		A015C0FD2280CFB000639C94 /* ImagePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePhotoView.h; sourceTree = "<group>"; };
+		A015C0F92280CF5D00639C94 /* SBSStartScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSStartScreenView.m; sourceTree = "<group>"; };
+		A015C0FA2280CF5D00639C94 /* SBSStartScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSStartScreenView.h; sourceTree = "<group>"; };
+		A015C0FC2280CFAF00639C94 /* SBSImagePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSImagePhotoView.m; sourceTree = "<group>"; };
+		A015C0FD2280CFB000639C94 /* SBSImagePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSImagePhotoView.h; sourceTree = "<group>"; };
 		A015C1072280D1C800639C94 /* TransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
 		A015C1082280D1C800639C94 /* TransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
-		A015C10A2280D2CA00639C94 /* ImagePhotoViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePhotoViewProtocol.h; sourceTree = "<group>"; };
-		A015C10D22817A4400639C94 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
-		A015C10E22817A4500639C94 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
-		A015C1172281886300639C94 /* DataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
-		A015C1182281886300639C94 /* DataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
-		A015C11A2281898600639C94 /* DataModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataModelProtocol.h; sourceTree = "<group>"; };
-		A015C11E22818E1400639C94 /* Assembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assembly.h; sourceTree = "<group>"; };
-		A015C11F22818E1400639C94 /* Assembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assembly.m; sourceTree = "<group>"; };
-		A015C1222281984A00639C94 /* CropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropImageView.h; sourceTree = "<group>"; };
-		A015C1232281984A00639C94 /* CropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropImageView.m; sourceTree = "<group>"; };
-		A015C12B2281B4CC00639C94 /* CropImageViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CropImageViewProtocol.h; sourceTree = "<group>"; };
+		A015C10A2280D2CA00639C94 /* SBSImagePhotoViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSImagePhotoViewProtocol.h; sourceTree = "<group>"; };
+		A015C10D22817A4400639C94 /* SBSMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSMenuView.m; sourceTree = "<group>"; };
+		A015C10E22817A4500639C94 /* SBSMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSMenuView.h; sourceTree = "<group>"; };
+		A015C1172281886300639C94 /* SBSDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSDataModel.h; sourceTree = "<group>"; };
+		A015C1182281886300639C94 /* SBSDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSDataModel.m; sourceTree = "<group>"; };
+		A015C11A2281898600639C94 /* SBSDataModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSDataModelProtocol.h; sourceTree = "<group>"; };
+		A015C11E22818E1400639C94 /* SBSAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSAssembly.h; sourceTree = "<group>"; };
+		A015C11F22818E1400639C94 /* SBSAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSAssembly.m; sourceTree = "<group>"; };
+		A015C1222281984A00639C94 /* SBSCropImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSCropImageView.h; sourceTree = "<group>"; };
+		A015C1232281984A00639C94 /* SBSCropImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSCropImageView.m; sourceTree = "<group>"; };
+		A015C12B2281B4CC00639C94 /* SBSCropImageViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSCropImageViewProtocol.h; sourceTree = "<group>"; };
 		A015C1552281D48700639C94 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		A015C1602281D54000639C94 /* Images+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Images+CoreDataProperties.h"; sourceTree = "<group>"; };
 		A015C1612281D54000639C94 /* Images+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Images+CoreDataClass.h"; sourceTree = "<group>"; };
 		A015C1622281D54000639C94 /* Images+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Images+CoreDataClass.m"; sourceTree = "<group>"; };
 		A015C1632281D54000639C94 /* Images+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Images+CoreDataProperties.m"; sourceTree = "<group>"; };
-		A015C1672281F05300639C94 /* CollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
-		A015C1682281F05300639C94 /* CollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
+		A015C1672281F05300639C94 /* SBSCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSCollectionView.h; sourceTree = "<group>"; };
+		A015C1682281F05300639C94 /* SBSCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSCollectionView.m; sourceTree = "<group>"; };
 		A015C16A2281F12D00639C94 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		A015C16B2281F12D00639C94 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		A015C16D2281F1AB00639C94 /* FullScreenImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullScreenImage.h; sourceTree = "<group>"; };
-		A015C16E2281F1AC00639C94 /* FullScreenImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenImage.m; sourceTree = "<group>"; };
-		A015C1752281F40200639C94 /* CollectionViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewProtocol.h; sourceTree = "<group>"; };
-		A015C17722822C1E00639C94 /* TableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
-		A015C17822822C1E00639C94 /* TableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
-		A015C17F228230B900639C94 /* TableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewProtocol.h; sourceTree = "<group>"; };
+		A015C16D2281F1AB00639C94 /* SBSFullScreenImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSFullScreenImage.h; sourceTree = "<group>"; };
+		A015C16E2281F1AC00639C94 /* SBSFullScreenImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSFullScreenImage.m; sourceTree = "<group>"; };
+		A015C1752281F40200639C94 /* SBSCollectionViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSCollectionViewProtocol.h; sourceTree = "<group>"; };
+		A015C17722822C1E00639C94 /* SBSTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSTableView.h; sourceTree = "<group>"; };
+		A015C17822822C1E00639C94 /* SBSTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSTableView.m; sourceTree = "<group>"; };
+		A015C17F228230B900639C94 /* SBSTableViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSTableViewProtocol.h; sourceTree = "<group>"; };
 		A0414104228423FA005F26F8 /* PresenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresenterTests.m; sourceTree = "<group>"; };
-		A0414108228445CA005F26F8 /* Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
-		A0414109228445CA005F26F8 /* Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
-		A041410B228445DB005F26F8 /* PresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresenterProtocol.h; sourceTree = "<group>"; };
-		A041410D2284B32D005F26F8 /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
-		A041410E2284B32D005F26F8 /* Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
-		A04141102284B3A2005F26F8 /* RouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterProtocol.h; sourceTree = "<group>"; };
-		A04141182284DA5E005F26F8 /* NetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
-		A04141192284DA5E005F26F8 /* NetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
-		A041411B2284DAD7005F26F8 /* NetworkRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkRequestProtocol.h; sourceTree = "<group>"; };
-		A041411C22860DDC005F26F8 /* PickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
-		A041411D22860DDC005F26F8 /* PickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
-		A041411F22861553005F26F8 /* PickerViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewProtocol.h; sourceTree = "<group>"; };
+		A0414108228445CA005F26F8 /* SBSPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSPresenter.h; sourceTree = "<group>"; };
+		A0414109228445CA005F26F8 /* SBSPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSPresenter.m; sourceTree = "<group>"; };
+		A041410B228445DB005F26F8 /* SBSPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSPresenterProtocol.h; sourceTree = "<group>"; };
+		A041410D2284B32D005F26F8 /* SBSRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSRouter.h; sourceTree = "<group>"; };
+		A041410E2284B32D005F26F8 /* SBSRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSRouter.m; sourceTree = "<group>"; };
+		A04141102284B3A2005F26F8 /* SBSRouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSRouterProtocol.h; sourceTree = "<group>"; };
+		A04141182284DA5E005F26F8 /* SBSNetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSNetworkRequest.h; sourceTree = "<group>"; };
+		A04141192284DA5E005F26F8 /* SBSNetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSNetworkRequest.m; sourceTree = "<group>"; };
+		A041411B2284DAD7005F26F8 /* SBSNetworkRequestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSNetworkRequestProtocol.h; sourceTree = "<group>"; };
+		A041411C22860DDC005F26F8 /* SBSPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSPickerView.h; sourceTree = "<group>"; };
+		A041411D22860DDC005F26F8 /* SBSPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSPickerView.m; sourceTree = "<group>"; };
+		A041411F22861553005F26F8 /* SBSPickerViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSPickerViewProtocol.h; sourceTree = "<group>"; };
 		A04141212288BDC6005F26F8 /* CroppingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CroppingHelper.h; sourceTree = "<group>"; };
 		A04141222288BDC6005F26F8 /* CroppingHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CroppingHelper.m; sourceTree = "<group>"; };
-		A0433102228B3124007A48B0 /* GoogleDetectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleDetectView.h; sourceTree = "<group>"; };
-		A0433103228B3124007A48B0 /* GoogleDetectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleDetectView.m; sourceTree = "<group>"; };
+		A0433102228B3124007A48B0 /* SBSGoogleDetectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBSGoogleDetectView.h; sourceTree = "<group>"; };
+		A0433103228B3124007A48B0 /* SBSGoogleDetectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBSGoogleDetectView.m; sourceTree = "<group>"; };
 		A0433118228BEA2F007A48B0 /* ColorsDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorsDictionary.h; sourceTree = "<group>"; };
 		A0433119228BEC5F007A48B0 /* ColorsDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorsDictionary.m; sourceTree = "<group>"; };
 		CD453CB55F17139ECC219D73 /* Pods-Final_Project_MVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_Project_MVP.debug.xcconfig"; path = "Target Support Files/Pods-Final_Project_MVP/Pods-Final_Project_MVP.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,8 +209,8 @@
 		A0433105228BE406007A48B0 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				A015C11E22818E1400639C94 /* Assembly.h */,
-				A015C11F22818E1400639C94 /* Assembly.m */,
+				A015C11E22818E1400639C94 /* SBSAssembly.h */,
+				A015C11F22818E1400639C94 /* SBSAssembly.m */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -218,9 +218,9 @@
 		A0433106228BE45D007A48B0 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				A041410D2284B32D005F26F8 /* Router.h */,
-				A041410E2284B32D005F26F8 /* Router.m */,
-				A04141102284B3A2005F26F8 /* RouterProtocol.h */,
+				A041410D2284B32D005F26F8 /* SBSRouter.h */,
+				A041410E2284B32D005F26F8 /* SBSRouter.m */,
+				A04141102284B3A2005F26F8 /* SBSRouterProtocol.h */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 		A043310A228BE512007A48B0 /* NetworkService */ = {
 			isa = PBXGroup;
 			children = (
-				A04141182284DA5E005F26F8 /* NetworkRequest.h */,
-				A04141192284DA5E005F26F8 /* NetworkRequest.m */,
-				A041411B2284DAD7005F26F8 /* NetworkRequestProtocol.h */,
+				A04141182284DA5E005F26F8 /* SBSNetworkRequest.h */,
+				A04141192284DA5E005F26F8 /* SBSNetworkRequest.m */,
+				A041411B2284DAD7005F26F8 /* SBSNetworkRequestProtocol.h */,
 			);
 			path = NetworkService;
 			sourceTree = "<group>";
@@ -272,9 +272,9 @@
 		A043310C228BE539007A48B0 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				A015C1172281886300639C94 /* DataModel.h */,
-				A015C1182281886300639C94 /* DataModel.m */,
-				A015C11A2281898600639C94 /* DataModelProtocol.h */,
+				A015C1172281886300639C94 /* SBSDataModel.h */,
+				A015C1182281886300639C94 /* SBSDataModel.m */,
+				A015C11A2281898600639C94 /* SBSDataModelProtocol.h */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -282,9 +282,9 @@
 		A043310D228BE555007A48B0 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				A0414108228445CA005F26F8 /* Presenter.h */,
-				A0414109228445CA005F26F8 /* Presenter.m */,
-				A041410B228445DB005F26F8 /* PresenterProtocol.h */,
+				A0414108228445CA005F26F8 /* SBSPresenter.h */,
+				A0414109228445CA005F26F8 /* SBSPresenter.m */,
+				A041410B228445DB005F26F8 /* SBSPresenterProtocol.h */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -308,8 +308,8 @@
 		A043310F228BE57E007A48B0 /* GoogleDetectView */ = {
 			isa = PBXGroup;
 			children = (
-				A0433102228B3124007A48B0 /* GoogleDetectView.h */,
-				A0433103228B3124007A48B0 /* GoogleDetectView.m */,
+				A0433102228B3124007A48B0 /* SBSGoogleDetectView.h */,
+				A0433103228B3124007A48B0 /* SBSGoogleDetectView.m */,
 			);
 			path = GoogleDetectView;
 			sourceTree = "<group>";
@@ -317,8 +317,8 @@
 		A0433110228BE5AC007A48B0 /* StartScreen */ = {
 			isa = PBXGroup;
 			children = (
-				A015C0FA2280CF5D00639C94 /* StartScreenView.h */,
-				A015C0F92280CF5D00639C94 /* StartScreenView.m */,
+				A015C0FA2280CF5D00639C94 /* SBSStartScreenView.h */,
+				A015C0F92280CF5D00639C94 /* SBSStartScreenView.m */,
 			);
 			path = StartScreen;
 			sourceTree = "<group>";
@@ -326,9 +326,9 @@
 		A0433111228BE5D8007A48B0 /* ImagePhoto */ = {
 			isa = PBXGroup;
 			children = (
-				A015C0FD2280CFB000639C94 /* ImagePhotoView.h */,
-				A015C0FC2280CFAF00639C94 /* ImagePhotoView.m */,
-				A015C10A2280D2CA00639C94 /* ImagePhotoViewProtocol.h */,
+				A015C0FD2280CFB000639C94 /* SBSImagePhotoView.h */,
+				A015C0FC2280CFAF00639C94 /* SBSImagePhotoView.m */,
+				A015C10A2280D2CA00639C94 /* SBSImagePhotoViewProtocol.h */,
 			);
 			path = ImagePhoto;
 			sourceTree = "<group>";
@@ -336,8 +336,8 @@
 		A0433112228BE5ED007A48B0 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				A015C10E22817A4500639C94 /* MenuView.h */,
-				A015C10D22817A4400639C94 /* MenuView.m */,
+				A015C10E22817A4500639C94 /* SBSMenuView.h */,
+				A015C10D22817A4400639C94 /* SBSMenuView.m */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -345,9 +345,9 @@
 		A0433113228BE600007A48B0 /* CropImage */ = {
 			isa = PBXGroup;
 			children = (
-				A015C1222281984A00639C94 /* CropImageView.h */,
-				A015C1232281984A00639C94 /* CropImageView.m */,
-				A015C12B2281B4CC00639C94 /* CropImageViewProtocol.h */,
+				A015C1222281984A00639C94 /* SBSCropImageView.h */,
+				A015C1232281984A00639C94 /* SBSCropImageView.m */,
+				A015C12B2281B4CC00639C94 /* SBSCropImageViewProtocol.h */,
 			);
 			path = CropImage;
 			sourceTree = "<group>";
@@ -355,9 +355,9 @@
 		A0433114228BE61C007A48B0 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				A015C1672281F05300639C94 /* CollectionView.h */,
-				A015C1682281F05300639C94 /* CollectionView.m */,
-				A015C1752281F40200639C94 /* CollectionViewProtocol.h */,
+				A015C1672281F05300639C94 /* SBSCollectionView.h */,
+				A015C1682281F05300639C94 /* SBSCollectionView.m */,
+				A015C1752281F40200639C94 /* SBSCollectionViewProtocol.h */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -365,9 +365,9 @@
 		A0433115228BE63F007A48B0 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				A015C17722822C1E00639C94 /* TableView.h */,
-				A015C17822822C1E00639C94 /* TableView.m */,
-				A015C17F228230B900639C94 /* TableViewProtocol.h */,
+				A015C17722822C1E00639C94 /* SBSTableView.h */,
+				A015C17822822C1E00639C94 /* SBSTableView.m */,
+				A015C17F228230B900639C94 /* SBSTableViewProtocol.h */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -375,8 +375,8 @@
 		A0433116228BE653007A48B0 /* FullImageScreen */ = {
 			isa = PBXGroup;
 			children = (
-				A015C16D2281F1AB00639C94 /* FullScreenImage.h */,
-				A015C16E2281F1AC00639C94 /* FullScreenImage.m */,
+				A015C16D2281F1AB00639C94 /* SBSFullScreenImage.h */,
+				A015C16E2281F1AC00639C94 /* SBSFullScreenImage.m */,
 			);
 			path = FullImageScreen;
 			sourceTree = "<group>";
@@ -384,9 +384,9 @@
 		A0433117228BE681007A48B0 /* ImagePickerView */ = {
 			isa = PBXGroup;
 			children = (
-				A041411C22860DDC005F26F8 /* PickerView.h */,
-				A041411D22860DDC005F26F8 /* PickerView.m */,
-				A041411F22861553005F26F8 /* PickerViewProtocol.h */,
+				A041411C22860DDC005F26F8 /* SBSPickerView.h */,
+				A041411D22860DDC005F26F8 /* SBSPickerView.m */,
+				A041411F22861553005F26F8 /* SBSPickerViewProtocol.h */,
 			);
 			path = ImagePickerView;
 			sourceTree = "<group>";
@@ -551,28 +551,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A015C0FE2280CFB000639C94 /* ImagePhotoView.m in Sources */,
+				A015C0FE2280CFB000639C94 /* SBSImagePhotoView.m in Sources */,
 				A015C1092280D1C800639C94 /* TransitionAnimation.m in Sources */,
-				A041411A2284DA5E005F26F8 /* NetworkRequest.m in Sources */,
-				A015C17922822C1E00639C94 /* TableView.m in Sources */,
-				A0433104228B3124007A48B0 /* GoogleDetectView.m in Sources */,
-				A041411E22860DDC005F26F8 /* PickerView.m in Sources */,
-				A041410F2284B32D005F26F8 /* Router.m in Sources */,
-				A015C1192281886300639C94 /* DataModel.m in Sources */,
-				A015C16F2281F1AC00639C94 /* FullScreenImage.m in Sources */,
-				A015C0FB2280CF5D00639C94 /* StartScreenView.m in Sources */,
+				A041411A2284DA5E005F26F8 /* SBSNetworkRequest.m in Sources */,
+				A015C17922822C1E00639C94 /* SBSTableView.m in Sources */,
+				A0433104228B3124007A48B0 /* SBSGoogleDetectView.m in Sources */,
+				A041411E22860DDC005F26F8 /* SBSPickerView.m in Sources */,
+				A041410F2284B32D005F26F8 /* SBSRouter.m in Sources */,
+				A015C1192281886300639C94 /* SBSDataModel.m in Sources */,
+				A015C16F2281F1AC00639C94 /* SBSFullScreenImage.m in Sources */,
+				A015C0FB2280CF5D00639C94 /* SBSStartScreenView.m in Sources */,
 				A015C1562281D48700639C94 /* DataModel.xcdatamodeld in Sources */,
-				A015C12022818E1400639C94 /* Assembly.m in Sources */,
-				A041410A228445CA005F26F8 /* Presenter.m in Sources */,
+				A015C12022818E1400639C94 /* SBSAssembly.m in Sources */,
+				A041410A228445CA005F26F8 /* SBSPresenter.m in Sources */,
 				A04141232288BDC6005F26F8 /* CroppingHelper.m in Sources */,
 				A015C1652281D54000639C94 /* Images+CoreDataProperties.m in Sources */,
 				A015C0CE2280CE3B00639C94 /* main.m in Sources */,
 				A015C0BD2280CE3900639C94 /* AppDelegate.m in Sources */,
 				A015C1642281D54000639C94 /* Images+CoreDataClass.m in Sources */,
 				A015C16C2281F12D00639C94 /* CollectionViewCell.m in Sources */,
-				A015C1242281984A00639C94 /* CropImageView.m in Sources */,
-				A015C1692281F05300639C94 /* CollectionView.m in Sources */,
-				A015C10F22817A4500639C94 /* MenuView.m in Sources */,
+				A015C1242281984A00639C94 /* SBSCropImageView.m in Sources */,
+				A015C1692281F05300639C94 /* SBSCollectionView.m in Sources */,
+				A015C10F22817A4500639C94 /* SBSMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
