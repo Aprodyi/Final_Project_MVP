@@ -8,7 +8,6 @@
 //
 
 #import "Images+CoreDataClass.h"
-#import "AppDelegate.h"
 
 @implementation Images
 

@@ -56,37 +56,8 @@
     cameraButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     cameraButton.showsTouchWhenHighlighted = YES;
     cameraButton.layer.borderColor = [UIColor blackColor].CGColor;
-    [cameraButton addTarget:self action:@selector(buttonCamera) forControlEvents:UIControlEventTouchUpInside];
+    [cameraButton addTarget:self.presenter action:@selector(createDetectorScreen) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:cameraButton];
-}
-
-- (void)buttonCamera
-{
-    [self.presenter createDetectorScreen];
-//    [self.presenter createDetectorScreen];
-//    FaceDetectCameraViewController *faceDetectVC = [[FaceDetectCameraViewController alloc] init];
-//    faceDetectVC.tabBarItem.title = @"Лица";
-//    faceDetectVC.tabBarItem.image = [UIImage imageNamed:@"FaceIcon"];
-//    TextDetector *textDetectVC = [[TextDetector alloc] init];
-//    textDetectVC.tabBarItem.title = @"Текст";
-//    textDetectVC.tabBarItem.image = [UIImage imageNamed:@"TextIcon"];
-//    BarcodeDetector *barcodeDetectVC = [[BarcodeDetector alloc] init];
-//    barcodeDetectVC.tabBarItem.title = @"QR-код";
-//    barcodeDetectVC.tabBarItem.image = [UIImage imageNamed:@"BarIcon"];
-//
-//    NSArray *arrayVC = @[faceDetectVC, textDetectVC, barcodeDetectVC];
-//    UITabBarController *tabBarViewController = [[UITabBarController alloc] init];
-//    tabBarViewController.tabBar.translucent = YES;
-//    tabBarViewController.tabBar.tintColor = [UIColor redColor];
-//    tabBarViewController.tabBar.barTintColor = [UIColor whiteColor];
-//    tabBarViewController.viewControllers = arrayVC;
-//
-//    UIBarButtonItem *newBackButton = [[UIBarButtonItem alloc] initWithTitle:@"Назад" style:UIBarButtonItemStylePlain target:self action:@selector(backButton)];
-//    newBackButton.tintColor = [UIColor blackColor];
-//    tabBarViewController.navigationItem.leftBarButtonItem = newBackButton;
-//
-//    [self.navigationController.view.layer addAnimation:[TransitionAnimation transitionAnimationWithType:kCATransitionPush andSubtype:kCATransitionFromTop andDuration:1.0] forKey:kCATransition];
-//    [self.navigationController pushViewController:tabBarViewController animated:NO];
 }
 
 @end
